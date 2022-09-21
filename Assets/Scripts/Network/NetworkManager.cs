@@ -6,6 +6,9 @@ using Photon.Realtime;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
+    [SerializeField]
+    private GameObject LipFrameworkEntity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +36,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("Joined a Room");
+        Instantiate(LipFrameworkEntity);
+        
         base.OnJoinedRoom();
     }
 

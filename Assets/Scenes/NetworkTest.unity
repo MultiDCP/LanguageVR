@@ -381,6 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c48d0d7b320c548a8ed44822481b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LipFrameworkEntity: {fileID: 1827556865440936, guid: 86d935e0d01acbe44887f792476d36e5, type: 3}
 --- !u!114 &1240510331
 MonoBehaviour:
   m_ObjectHideFlags: 0

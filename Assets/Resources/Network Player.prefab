@@ -198,13 +198,14 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 2
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1950973071829061683}
   - {fileID: 7445664720227807943}
   - {fileID: 4556099722315068306}
+  - {fileID: 3577007320093872669}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -294,6 +295,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: cc2bd8780f283784899dcb72f2f7702f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: cc2bd8780f283784899dcb72f2f7702f, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -319,6 +324,33 @@ PrefabInstance:
 --- !u!4 &2577712276369857613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: cc2bd8780f283784899dcb72f2f7702f, type: 3}
+  m_PrefabInstance: {fileID: 2577712276370245325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2577712276370341997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: cc2bd8780f283784899dcb72f2f7702f, type: 3}
+  m_PrefabInstance: {fileID: 2577712276370245325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3577007320093872669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577712276370341997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42350b51669fc604cb2cad73c39f116c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LipShapeTables:
+  - skinnedMeshRenderer: {fileID: 2577712276381846893}
+    lipShapes: 010000000000000002000000030000000400000006000000050000000800000007000000090000000a0000000b0000000d0000000c0000000f0000000e00000011000000100000001200000014000000130000001600000015000000170000001800000019000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1a000000200000001b0000001c0000001d0000001e0000001f00000022000000210000002400000023000000
+  NeededToGetData: 1
+  pv: {fileID: 8280764690284043887}
+--- !u!137 &2577712276381846893 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: cc2bd8780f283784899dcb72f2f7702f, type: 3}
   m_PrefabInstance: {fileID: 2577712276370245325}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6836319026152987979
@@ -375,6 +407,10 @@ PrefabInstance:
     - target: {fileID: 400060, guid: 65d8eda911e0ba548a3674f65c43308b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 65d8eda911e0ba548a3674f65c43308b, type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d8eda911e0ba548a3674f65c43308b, type: 3}
